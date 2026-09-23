@@ -1,0 +1,82 @@
+{
+    "status": "success",
+    "spill": {
+        "latitude": 15.0,
+        "longitude": 88.0,
+        "timestamp": "2026-09-01 23:00:00+00:00"
+    },
+    "candidate_origin": {
+        "latitude": 14.966169357299805,
+        "longitude": 87.9893798828125
+    },
+    "origin_region_50_percent": {
+        "latitude_min": 14.95689582824707,
+        "latitude_max": 14.978340148925781,
+        "longitude_min": 87.97408294677734,
+        "longitude_max": 88.00241088867188,
+        "relative_density_threshold": 0.5056497237576757
+    },
+    "ais_observations": 45,
+    "candidate_vessels": 2,
+    "vessels": [
+        {
+            "rank": 1,
+            "mmsi": 700000005,
+            "vessel_name": "Synthetic Echo",
+            "ship_type": "Tanker",
+            "observations": 3,
+            "entered_50pct_origin_region": true,
+            "region_observations": 3,
+            "min_distance_km": 0.4708025898573267,
+            "closest_timestamp": "2026-09-01 22:00:00+00:00",
+            "closest_time_difference_hours": 1.0,
+            "first_distance_km": 1.5447364002174977,
+            "last_distance_km": 0.4708025898573267,
+            "approaching_origin": true,
+            "departing_origin": false,
+            "mean_sog": 1.5,
+            "closest_sog": 1.5,
+            "speed_change_percent": 0.0,
+            "mean_course_change": 0.0,
+            "max_course_change": 0.0,
+            "median_time_gap_hours": 1.0,
+            "distance_score": 90.58394820285346,
+            "temporal_score": 87.5,
+            "region_score": 60.0,
+            "approach_score": 100.0,
+            "continuity_score": 100.0,
+            "behavior_score": 100.0,
+            "trajectory_match_score": 88.67518446085603
+        },
+        {
+            "rank": 2,
+            "mmsi": 700000003,
+            "vessel_name": "Synthetic Charlie",
+            "ship_type": "Tanker",
+            "observations": 1,
+            "entered_50pct_origin_region": true,
+            "region_observations": 1,
+            "min_distance_km": 1.1409503296933696,
+            "closest_timestamp": "2026-09-01 16:00:00+00:00",
+            "closest_time_difference_hours": 7.0,
+            "first_distance_km": 1.1409503296933696,
+            "last_distance_km": 1.1409503296933696,
+            "approaching_origin": false,
+            "departing_origin": false,
+            "mean_sog": 7.0,
+            "closest_sog": 7.0,
+            "speed_change_percent": 0.0,
+            "mean_course_change": 0.0,
+            "max_course_change": 0.0,
+            "median_time_gap_hours": NaN,
+            "distance_score": 77.1809934061326,
+            "temporal_score": 12.5,
+            "region_score": 25.0,
+            "approach_score": 40.0,
+            "continuity_score": 20.0,
+            "behavior_score": 100.0,
+            "trajectory_match_score": 47.40429802183978
+        }
+    ],
+    "note": "Scores are prototype screening metrics and do not establish legal responsibility."
+}

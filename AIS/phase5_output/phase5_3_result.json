@@ -1,0 +1,63 @@
+{
+  "status": "success",
+  "pipeline_stage": "Phase 5.3 - Evidence Fusion",
+  "synthetic_data": true,
+  "note": "Scores are screening scores for potential source-vessel identification. They are not probabilities and do not establish legal responsibility.",
+  "modeled_origin": {
+    "latitude": 14.966169357299805,
+    "longitude": 87.9893798828125
+  },
+  "weights": {
+    "phase51_spatial_temporal": 0.55,
+    "phase52_trajectory_behavior": 0.45
+  },
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "rank": 1,
+      "vessel_name": "Synthetic Echo",
+      "mmsi": "700000005",
+      "ship_type": "Tanker",
+      "phase51_score": 88.67518446085603,
+      "phase52_score": 89.49727946802685,
+      "final_evidence_score": 89.0451272140829,
+      "evidence_level": "Strong screening match",
+      "evidence_summary": "very close to modeled origin; approaches modeled origin; stable speed; stable course; good AIS continuity",
+      "phase51_min_distance_km": 0.4708025898573267,
+      "closest_time_difference_hours": 1.0,
+      "phase52_min_distance_km": 0.0718172188533078,
+      "approaching_origin": true,
+      "departing_origin": false,
+      "mean_sog": 1.5,
+      "speed_change_percent": 0.0,
+      "max_course_change_deg": 0.0,
+      "continuity_score": 75.0,
+      "proximity_score": 98.56365562293384,
+      "approach_score": 75.0,
+      "behavior_score": 100.0
+    },
+    {
+      "rank": 2,
+      "vessel_name": "Synthetic Charlie",
+      "mmsi": "700000003",
+      "ship_type": "Tanker",
+      "phase51_score": 47.40429802183978,
+      "phase52_score": 88.26334769214641,
+      "final_evidence_score": 65.79087037347776,
+      "evidence_level": "Moderate screening match",
+      "evidence_summary": "within 2 km of modeled origin; approaches modeled origin; departs after closest approach; stable speed; stable course; good AIS continuity",
+      "phase51_min_distance_km": 1.1409503296933696,
+      "closest_time_difference_hours": 7.0,
+      "phase52_min_distance_km": 1.1409503296933696,
+      "approaching_origin": true,
+      "departing_origin": true,
+      "mean_sog": 7.0,
+      "speed_change_percent": 0.0,
+      "max_course_change_deg": 0.0,
+      "continuity_score": 75.0,
+      "proximity_score": 77.1809934061326,
+      "approach_score": 100.0,
+      "behavior_score": 100.0
+    }
+  ]
+}

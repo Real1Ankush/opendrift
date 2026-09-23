@@ -1,0 +1,42 @@
+{
+    "spill_detection": {
+        "spill_detected": true,
+        "latitude": 15.0,
+        "longitude": 88.0,
+        "timestamp": "2026-09-01T23:00:00"
+    },
+    "environment": {
+        "data_start": "2026-09-01 00:00:00",
+        "data_end": "2026-09-01 23:00:00"
+    },
+    "backward_simulation": {
+        "lookback_hours": 8,
+        "origin_time": "2026-09-01 15:00:00",
+        "particles": 200,
+        "valid_particles": 200
+    },
+    "candidate_origin": {
+        "latitude": 14.966169357299805,
+        "longitude": 87.9893798828125,
+        "relative_density": 1.0
+    },
+    "region_50_percent": {
+        "latitude_min": 14.95689582824707,
+        "latitude_max": 14.978340148925781,
+        "longitude_min": 87.97408294677734,
+        "longitude_max": 88.00241088867188,
+        "relative_density_threshold": 0.5056497237576757
+    },
+    "region_80_percent": {
+        "latitude_min": 14.949361801147461,
+        "latitude_max": 14.984716415405273,
+        "longitude_min": 87.96955108642578,
+        "longitude_max": 88.0080795288086,
+        "relative_density_threshold": 0.2106036617257232
+    },
+    "limitations": [
+        "Candidate origin is a model-based estimate.",
+        "Relative density is not calibrated probability.",
+        "Real-world accuracy requires validation against independent spill events."
+    ]
+}
