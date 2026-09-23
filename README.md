@@ -1,7 +1,7 @@
 # SpillTrace --- Oil Spill Origin & Vessel Correlation
 
 This repository contains the **OpenDrift-based oil spill tracking and
-AIS vessel correlation pipeline** developed for the SIH 2026 oil spill
+AIS vessel correlation pipeline** developed for oil spill
 detection problem.
 
 The purpose of this part of the project is to:
@@ -1144,8 +1144,7 @@ Read phase5_3_result.json
 Return JSON to frontend
 ```
 
-This approach matches the current repository structure and is useful for
-the SIH prototype.
+
 
 ------------------------------------------------------------------------
 
@@ -1492,11 +1491,7 @@ They are not calibrated probabilities of responsibility.
 
 ------------------------------------------------------------------------
 
-# 34. Role of This Repository in the Full SIH Project
-
-The complete SIH system has multiple components.
-
-This repository mainly handles:
+# 34. This repository mainly handles:
 
 ``` text
                 Satellite Detection
